@@ -7,7 +7,6 @@ function App() {
       <div>
         Lets Start Work, Everybody clone or pull and start working on your sections
       </div>
-      
     </>
   )
 }
