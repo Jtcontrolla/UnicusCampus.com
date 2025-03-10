@@ -1,0 +1,101 @@
+body {
+    background-color: #2d527c;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 600px;
+    margin: 0 auto 20px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .card {
+    background-color: #ccc;
+    width: 400px;
+    padding-top:170px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .card-content {
+    background-color: #1d3d5c;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .card h2 {
+    font-size: 18px;
+  }
+  
+  .card p {
+    font-size: 14px;
+  }
+
+ p1{
+    text-align:start;
+  }
+ 
+.section {
+    margin-top: 40px;
+    padding: 20px;
+  }
+  
+  .subtitle {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .stars {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .description {
+    font-size: 14px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+  }
+  
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .carousel-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .carousel-indicator {
+    text-align: center;
+  }
+  
+  .circle {
+    width: 30px;
+    height: 30px;
+    background-color:grey;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  
