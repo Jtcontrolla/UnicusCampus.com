@@ -1,8 +1,8 @@
-/* General Styles */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #1E4A71;
+  background-color: rbga(81,84, 866);
   color: white;
   text-align: center;
 }
@@ -92,20 +92,49 @@ button:hover {
 }
 
 /* Responsive */
+
 @media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .logo-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .content {
-      flex-direction: column;
+    flex-direction: column;
+    text-align: center;
   }
 
   .text {
-      text-align: center;
-      padding: 0;
+    text-align: center;
+    padding-right: 0;
   }
 
   .image-placeholder {
-      width: 100%;
-      height: 150px;
-      margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    margin-top: 15px;
   }
 }
-    
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .text p {
+    font-size: 14px;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+  }
+}

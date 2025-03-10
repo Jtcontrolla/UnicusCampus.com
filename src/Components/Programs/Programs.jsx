@@ -23,7 +23,7 @@ const Progarms = () => {
         </div>
         <div class="image-placeholder"></div>
     </div>
-</div>
+   </div>
   )
 }
 
