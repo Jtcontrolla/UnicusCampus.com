@@ -1,13 +1,15 @@
-import { react } from 'react'
+import  React from 'react'
 import './App.css'
-
+import Footer from './Footer/Footer'
 function App() {
   return (
     <>
       <div>
-        Lets Start Work, Everybody clone or pull and start working on your sections
+      <Footer/>
       </div>
-    </>
+    </> 
+      
+  
   )
 }
 
