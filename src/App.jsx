@@ -5,6 +5,11 @@ function App() {
   return (
     <>
       <Header />
+      <Hero />
+      <Programs />
+      <Testimonial />
+      <Footer />
+      
     </>
   )
 }
