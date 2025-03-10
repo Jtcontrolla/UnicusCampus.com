@@ -1,5 +1,14 @@
 import React from 'react'
 import './hero.css'
+import img1 from '../../src/assets/img1.png'
+import img2 from '../../src/assets/img2.png'
+import img3 from '../../src/assets/img3.png'
+import img4 from '../../src/assets/img4.png'
+import img5 from '../../src/assets/img5.png'
+import img6 from '../../src/assets/img6.png'
+import img7 from '../../src/assets/img7.png'
+import img8 from '../../src/assets/img8.png'
+import img9 from '../../src/assets/img9.png'
 const Hero = () => {
   return (
     <div className='bodys'>
@@ -19,16 +28,16 @@ const Hero = () => {
         <p>tions</p>
       </div>
       <div className='cir'>
-        <p className='circle'></p>
-        <p className='circle'></p>
-        <p className='circle'></p>
-        <p className='circle'></p>
-        <p className='circle'></p>
-        <p className='circle'></p>
-        <p className='circle'></p>
-        <p className='circle'></p>
-        <p className='circle'></p>
-       
+        <div className='circle'>< img src={img1} alt="" / ></div>
+        <div className='circle'>< img src={img2} alt="" / ></div>
+        <div className='circle'>< img src={img3} alt="" / ></div>
+        <div className='circle'>< img src={img4} alt="" / ></div>
+        <div className='circle'>< img src={img5} alt="" / ></div>
+        <div className='circle'>< img src={img6} alt="" / ></div>
+        <div className='circle'>< img src={img7} alt="" / ></div>
+        <div className='circle'>< img src={img8} alt="" / ></div>
+        <div className='circle'>< img src={img9} alt="" / ></div>
+
       </div>
     </div>
   )
