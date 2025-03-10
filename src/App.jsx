@@ -1,12 +1,10 @@
-import { react } from 'react'
-import './App.css'
+import { React } from 'react'
+import Header from './components/Header.jsx'
 
 function App() {
   return (
     <>
-      <div>
-        Lets Start Work, Everybody clone or pull and start working on your sections
-      </div>
+      <Header />
     </>
   )
 }
